@@ -13,8 +13,11 @@ build = "build.rs"
 links = "fontconfig"
 
 [lib]
-name = "fontconfig-sys"
+name = "fontconfig_sys"
 path = "lib.rs"
+
+[dependencies]
+libc = "*"
 
 [build-dependencies]
 pkg-config = "*"
