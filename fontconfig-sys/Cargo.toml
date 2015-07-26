@@ -1,6 +1,6 @@
 [package]
 
-name = "fontconfig-sys"
+name = "fontconfig_sys"
 version = "2.11.1"
 authors = ["Austin Bonander <austin.bonander@gmail.com>"]
 license = "MIT"
@@ -13,8 +13,11 @@ build = "build.rs"
 links = "fontconfig"
 
 [lib]
-name = "fontconfig-sys"
+name = "fontconfig_sys"
 path = "lib.rs"
+
+[dependencies]
+libc = "*"
 
 [build-dependencies]
 pkg-config = "*"
