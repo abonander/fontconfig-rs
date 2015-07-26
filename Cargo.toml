@@ -9,6 +9,6 @@ repository = "https://github.com/cybergeek94/fontconfig-rs"
 homepage = "https://github.com/cybergeek94/fontconfig-rs"
 description = "Wrapper around freedesktop's fontconfig library"
 
-[dependencies.fontconfig-sys]
+[dependencies.fontconfig_sys]
 path = "fontconfig-sys"
 version = "~2.11.1"
