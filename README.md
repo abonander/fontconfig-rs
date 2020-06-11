@@ -1,6 +1,8 @@
 fontconfig-rs
 =============
 
+#### NOTICE: this repository is no longer the source repo for the `fontconfig` crate; see https://github.com/yeslogic/fontconfig-rs for the current source
+
 A wrapper around freedesktop's fontconfig utility, for locating fontfiles on a Linux-based system. Requires libfontconfig to be installed.
 
 Prerequisites
